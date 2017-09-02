@@ -1,0 +1,15 @@
+Source: pass-otp
+Section: local
+Priority: extra
+Maintainer: Daniel Silverstone <dsilvers@digital-scurf.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: http://www.debian.org
+
+Package: pass-otp
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, oathtool, qrencode, pass
+Description: Password Store OTP auth tool support
+ This is the oathtool/pass integration tooling
+

@@ -1,0 +1,6 @@
+pass-otp (1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Daniel Silverstone <bogus@localhost>  Sat, 02 Sep 2017 21:15:45 +0100

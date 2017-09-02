@@ -1,0 +1,124 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pass-otp
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .travis.yml
+           CHANGELOG.md
+           Makefile
+           test/.gitignore
+           test/append.t
+           test/code.t
+           test/gnupg/.gpg-v21-migrated
+           test/gnupg/gpg.conf
+           test/gnupg/private-keys-v1.d/0606FE40527B8F47BFD30238709F895642EEF303.key
+           test/gnupg/private-keys-v1.d/06278846A35FE4416E8701DDCF6B60E93F8BCB63.key
+           test/gnupg/private-keys-v1.d/615FC2A5B2CBFD58B7FFA0A140D43B74AB9748B0.key
+           test/gnupg/private-keys-v1.d/63D607EC5C89163B473708E7B3E5115301CF06E4.key
+           test/gnupg/private-keys-v1.d/A5CEE9554AA7090ADD97D97E0DA902764E6C2111.key
+           test/gnupg/private-keys-v1.d/AD20D0B45D263DD5AE866FDB98E04A0D20070F68.key
+           test/gnupg/private-keys-v1.d/C93858C40FA9E117DA4E7F336580B8B12354EB83.key
+           test/gnupg/private-keys-v1.d/C93F70CA322D4F42E7FC7D54F6367E65C23E5CA3.key
+           test/gnupg/private-keys-v1.d/CDA6EE91E62A15AB9F6A3041FE01CC123B7E9D23.key
+           test/gnupg/private-keys-v1.d/FFED3C5A6A52B200BCCE3F41593EA51D6054649F.key
+           test/gnupg/pubring.gpg
+           test/gnupg/secring.gpg
+           test/gnupg/trustdb.gpg
+           test/insert.t
+           test/setup.sh
+           test/uri.t
+           test/validate.t
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     test/Makefile
+           test/aggregate-results.sh
+Copyright: 2005-2012 Git project
+           2005-2012 Junio C Hamano
+           2011-2012 Mathias Lafeldt
+License:   GPL-2.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/ .
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     README.md
+           pass-otp.1
+Copyright: 2017 Tad Fisher
+           __NO_COPYRIGHT__ in: pass-otp.1
+License:   GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ ```
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     test/sharness.sh
+Copyright: 2005-2012 Git project
+           2005-2012 Junio C Hamano
+           2011-2012 Mathias Lafeldt
+License:   GPL-2.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/ .
+ .
+ Public: Current version of Sharness.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     otp.bash
+Copyright: 2017 Tad Fisher
+License:   GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ []
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
